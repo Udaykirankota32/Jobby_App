@@ -1,0 +1,88 @@
+.user-profile-and-filter-section-container {
+  width: 30%;
+  padding: 30px;
+  position: fixed;
+}
+
+@media (max-width: 767px) {
+  .user-profile-and-filter-section-container {
+    width: 100%;
+    position: static;
+  }
+}
+
+.user-profile-card-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-profile-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  width: 100%;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+
+
+.user-profile-name {
+  color: #6366f1;
+  font-size: 25px;
+}
+
+.user-profile-pic {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 0px;
+}
+
+.uesr-profile-role {
+  color: #2c364c;
+  font-size: 15px;
+}
+
+.filter-items-list {
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-heading {
+  color: white;
+  font-size: 15px;
+}
+.horizontal-line {
+  border: solid 1px #2c364c;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 3px;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.filter-input-element {
+  outline: none;
+  border: 0px;
+  margin-right: 10px;
+}
+
+.radio {
+  width: 15px;
+  height: 15px;
+}
+
+.label-text {
+  color: #cbd5e1;
+  font-size: 15px;
+}

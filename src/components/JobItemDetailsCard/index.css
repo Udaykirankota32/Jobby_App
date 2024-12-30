@@ -1,0 +1,157 @@
+.job-item-details-card {
+  background-color: #272727;
+  width: 100%;
+  padding: 40px;
+  margin-top: 40px;
+  border-radius: 20px;
+}
+
+@media (max-width: 767px) {
+  .job-item-details-card {
+    padding: 15px;
+    border-radius: 10px;
+  }
+}
+.job-item-details-card-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.job-item-details-card-header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.job-item-details-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.company-logo {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+@media (max-width: 767px) {
+  .company-logo {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.job-item-details-card-main-heading {
+  color: #ffffff;
+  font-size: 25px;
+}
+
+@media (max-width: 767px) {
+  .job-item-details-card-main-heading {
+    font-size: 20px;
+  }
+}
+
+.job-item-details-card-icons {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin-right: 20px;
+}
+
+.job-item-details-icon-Description {
+  font-size: 15px;
+  margin: 0px 10px;
+}
+
+.job-item-details-location-and-employmentType-container {
+  display: flex;
+}
+
+.job-item-details-card-titles {
+  font-size: 20px;
+}
+
+.job-item-details-description {
+  font-size: 18px;
+}
+
+@media (max-width: 767px) {
+  .job-item-details-description {
+    font-size: 14px;
+  }
+}
+
+.job-item-details-card-skills-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skills-list-item {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.skill-image {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+@media (max-width: 767px) {
+  .skill-image {
+    width: 30px;
+    height: 30px;
+  }
+  .skills-list-item {
+    width: 50%;
+  }
+}
+
+.visit-link-position-style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-item-details-visit-link {
+  text-decoration: none;
+  color: #4f46e5;
+  margin-right: 5px;
+}
+
+.company-life-style-description-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.life-at-company-img {
+  width: 40%;
+  height: 250px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+@media (max-width: 767px) {
+  .company-life-style-description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .life-at-company-img {
+    width: 100%;
+    margin: 0px;
+  }
+}
+
+.job-item-package-details {
+  font-size: 20px;
+}

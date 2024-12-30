@@ -1,0 +1,83 @@
+.jobby-app-login-bg-container {
+  background-color: #000000;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.jobby-app-login-box-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  width: 30%;
+  background-color: #272727;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 767px) {
+  .login-form {
+    width: 90%;
+  }
+}
+
+.website-logo-container {
+  align-self: center;
+}
+
+.website-logo {
+  width: 150px;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.login-section-label-description {
+  width: 100%;
+  color: #f8fafc;
+  font-size: 15px;
+}
+
+.login-section-input-container {
+  width: 100%;
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-section-input-element {
+  color: #64748b;
+  font-size: 15px;
+  width: 100%;
+  background-color: transparent;
+  border: solid #2c364c 1px;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0px;
+  outline: none;
+}
+
+.login-button {
+  align-self: stretch;
+  background-color: #6366f1;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+}
+
+.error-msg {
+  color: #ff0b37;
+  font-size: 15px;
+}
