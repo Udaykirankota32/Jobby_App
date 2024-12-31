@@ -1,0 +1,33 @@
+.Not-found-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-img {
+  width: 400px;
+  height: 400px;
+}
+
+.not-found-heading {
+  font-size: 25px;
+}
+
+@media (max-width: 767px) {
+  .not-found-img {
+    width: 80%;
+    height: 400px;
+  }
+  .not-found-heading {
+    font-size: 20px;
+  }
+
+  .not-found-description {
+    font-size: 14px;
+  }
+}

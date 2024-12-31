@@ -47,6 +47,7 @@ class JobItemDetails extends Component {
 
       const updatedJobDetails = {
         companyLogoUrl: jobDetails.company_logo_url,
+        title: jobDetails.title,
         companyWebsiteUrl: jobDetails.company_website_url,
         employmentType: jobDetails.employment_type,
         id: jobDetails.id,

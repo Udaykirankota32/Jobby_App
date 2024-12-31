@@ -7,8 +7,8 @@
   cursor: pointer;
 }
 
-@media (max-width:767px){
-  .similar-jobs-item-card-container{
+@media (max-width: 767px) {
+  .similar-jobs-item-card-container {
     width: 100%;
   }
 }
